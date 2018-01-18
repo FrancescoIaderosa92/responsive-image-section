@@ -11,6 +11,8 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  background-color:#e2e2e2;
+  margin: 0;
 }
 
 *, *::before, *::after {
@@ -25,18 +27,32 @@ p {
 .btn {
   padding: 0.5em 0.75em;
   border-radius: 4px;
-  color: #e2e2e2;
+  text-decoration: none;
+  color: white;
   background-color: #555;
   display: inline-block;
 }
 
+.btn:hover {
+  background-color: #e2e2e2;
+}
+
 .img-div {
   padding: 2rem 1rem;
+  max-width: 60rem;
+}
+
+.amount-cocoa {
+
 }
 
 .img-flex {
   width: 100%;
   display: block;
+}
+
+body {
+  text-align: left;
 }
 
 @media only screen and (min-width: 25em) {
@@ -73,6 +89,7 @@ p {
 
   .info-div {
     vertical-align: top;
+    vertical-align: middle;
     display: inline-block;
     width: 48%;
   }
@@ -89,6 +106,15 @@ p {
   h1,
   p {
     margin: 0 0 1.5rem;
+  }
+
+  .info-div {
+    text-align: left;
+    padding: 2rem;
+  }
+
+  .dark-chocolate {
+    text-align: center;
   }
 
 }
