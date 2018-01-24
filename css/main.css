@@ -13,6 +13,7 @@ html {
   text-size-adjust: 100%;
   background-color:#e2e2e2;
   margin: 0;
+  line-height: 1.2;
 }
 
 *, *::before, *::after {
@@ -38,12 +39,12 @@ p {
 }
 
 .img-div {
-  padding: 2rem 1rem;
-  max-width: 60rem;
+  max-width: 30rem;
 }
 
 .amount-cocoa {
-
+  font-weight: bold;
+  margin: 0;
 }
 
 .img-flex {
@@ -51,8 +52,18 @@ p {
   display: block;
 }
 
+.info-div {
+  text-align: left;
+  padding: 1rem;
+}
+
+.chocolate-info {
+  margin-top: 0;
+}
+
 body {
   text-align: left;
+  margin: 0;
 }
 
 @media only screen and (min-width: 25em) {
@@ -82,16 +93,23 @@ body {
   }
 
   .img-div {
-    vertical-align: top;
+    vertical-align: middle;
     display: inline-block;
+    max-width: 35em;
     width: 48%;
+    margin-top: 2.8rem;
   }
 
   .info-div {
-    vertical-align: top;
     vertical-align: middle;
     display: inline-block;
     width: 48%;
+    max-width: 30em;
+    padding-top:2.4rem;
+  }
+
+  section {
+    text-align: center;
   }
 
 }
@@ -110,11 +128,13 @@ body {
 
   .info-div {
     text-align: left;
-    padding: 2rem;
+    padding-top:2.2rem;
   }
 
-  .dark-chocolate {
-    text-align: center;
+  .img-div {
+    max-width: 26em;
+    margin-top: 2.2rem;
+    margin-bottom: 2rem;
   }
 
 }
@@ -123,6 +143,16 @@ body {
 
   html {
     font-size: 130%;
+  }
+
+  .info-div {
+    text-align: left;
+    padding-top: 3.5rem;
+  }
+
+  .img-div {
+    max-width: 26em;
+    margin-top: 3rem;
   }
 
 }
